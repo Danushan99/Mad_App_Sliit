@@ -1,0 +1,150 @@
+<resources>
+    //comone ellorukkum last ah podu
+    <string name="app_name">Medi-One</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonSignup">Signup</string>
+    <string name="terms">By Signing in. you accept our Terms and conditions</string>
+    <string name="textOR">OR</string>
+    <string name="textWlelcom">Welcome</string>
+    <string name="textLoginDetil">Login To Contiune</string>
+    <string name="imagesInput">images</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="newAcco">Don\'t Have Account,</string>
+    <string name="Register">Register</string>
+    <string name="username">Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="regPassword">Password</string>
+    <string name="re_password">Re-Type Password</string>
+    <string name="RegButton">Register</string>
+    <string name="menu_home">Home</string>
+
+    <string name="menu_mybag">MyBag</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="profilePic">image</string>
+    <string name="usernameex">Vijay Kumar</string>
+    <string name="country">SriLankan</string>
+    //dhanu
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="docWelcome">Let\'s Find Your Desired Doctor</string>
+    <string name="docname1"> Dr.Akash Vara  Otolaryngologist</string>
+    <string name="docname2">Dr.Giovanni Marco  Family Medicine</string>
+    <string name="docname3">Dr.Danuja Mark  Dentistry </string>
+    <string name="docname4">Dr.Abinaya Thaya  Pediatric Medicine </string>
+    <string name="docname5">Dr.Kumaran Cox  Physical Therapy </string>
+    <string name="docname6">Dr.SriRam Raj  Dentistry </string>
+    <string name="docname7">Dr.Danushan Ravi  Family Medicine </string>
+    <string name="docname8">Dr.Debora Debo  Pediatric Medicine </string>
+    <string name="docbook">Book Your Appoinment </string>
+    <string name="bookbtn">Book An Appoinment </string>
+    <string name="Address">Address </string>
+    <string name="phonenum">Phone </string>
+    <string name="cancel">Cancel </string>
+    <string name="Time1">8.30 AM - 10.30 AM</string>
+    <string name="Time2">10.30 AM-12.30 PM </string>
+    <string name="Time3">3.30 PM - 4.30 PM </string>
+    <string name="Time4">4.30 PM - 6.30 PM </string>
+    <string name="bookingsucc">BOOKING SUCESSFULL </string>
+    <string name="textdea">Your Appoinment Has Been Booked Succesfully More Deatils +94 0779299587 </string>
+    <string name="p_age">Patient Age</string>
+    <string name="p_address">Patient Address</string>
+    <string name="p_name">Patient Name</string>
+    <string name="age">Age</string>
+    <string name="caln">Pick From Datepicker</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="editdocDea">Edit Appoinment Details</string>
+    <string name="editbtn">Edit Details</string>
+    <string name="delettbtn">Cancel Appoinment</string>
+    <string name="editbtn1">Edit Order</string>
+    <string name="delettbtn2">Cancel Order</string>
+    <string name="editmedidea">Edit Product Details</string>
+
+    <!-- gobi  fregment -->
+    <string name="scantext">Select Your Medical Scan And Test</string>
+    <string name="scandet1">Magnetic Resonance Imaging (MRI)</string>
+    <string name="scandet2">Computed Tomography (CT)</string>
+    <string name="scandet3">polymerasen Chain Reaction (PCR)</string>
+    <string name="scandet4">X-Ray Scan </string>
+    <string name="scandet5">Ultrasound Scan </string>
+    <string name="scandet6">Bone Densitometry (DEXA) </string>
+    <string name="scandet7">Fluoroscopy </string>
+    <string name="scandet8">Blood Test </string>
+    <string name="scanbok">Reserve For Scan </string>
+    <string name="scanbook">Reserve Now</string>
+
+    <!-- aki  fregment -->
+    <string name="meditext">Select Your Medicine</string>
+    <string name="medidet1">[P]CIMUNE VITAMIN C 500MG TABS</string>
+    <string name="medidet2">PANADOL TABLETS 500MG </string>
+    <string name="medidet3">SOFTEX COTTON CREPE 9CM X 9M</string>
+    <string name="medidet4">AXE UNIVERSAL OIL 56ML</string>
+    <string name="medidet5">HEALTHGUARD FIRST AID KIT</string>
+    <string name="medidet6">OCEAN HEALTH MULTIVITAMIN 60S </string>
+    <string name="medidet7"> ccc</string>
+    <string name="medidet8">Blood Test </string>
+    <string name="medibok">Reserve For Scan </string>
+    <string name="medibook">Reserve Now</string>
+    <string name="doc_name">Doctor Name</string>
+
+
+    <!-- aki  strings -->
+    <string name="cardText1">Product Name</string>
+    <string name="pname">Patient Name</string>
+    <string name="paddress">Patient Address</string>
+    <string name="pnumber">Patient Number</string>
+    <string name="page">Patient Age</string>
+    <string name="type">Type</string>
+    <string name="qt">Quantity</string>
+    <string name="bnow">Book Now</string>
+    <string name="cancel1">Cancel</string>
+    <string name="cdetails">Fill Your Details</string>
+    <string name="allorders">All Orders</string>
+    <string name="orderid">#191111</string>
+    <string name="orderid2">#194411</string>
+    <string name="desc">English version last updated on 22 June 2021 to reflect 15 June 2021 SAGE interim recommendations on the Pfizer/BionTech COVID-19 vaccine.</string>
+    <string name="cddetails2">Edit Details</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="finalstep">Final Step</string>
+    <string name="doctordesc">You have to Submit Your Doctor\'s Prescription For conform your order</string>
+    <string name="hme">HOME</string>
+    <string name="submit">SUBMIT</string>
+    <string name="cod">NOTE - Only Cash On Delivery is available</string>
+    <string name="buynow">Buy Now</string>
+    <string name="Booknow" />
+    <string name="Book">BooK Now</string>
+    <string name="next">Next</string>
+    <string name="ordercfm">Conform Your order </string>
+    <string name="uploadimage">Select image</string>
+    <string name="cancelorder">Cancel Order</string>
+    //dhanu
+    <string name="bagtext">Booked Doctor Deatils</string>
+    <string name="expendall">EXPEND ALL</string>
+    <string name="bagtext2">Orded Medicin Details</string>
+    <string name="bagtext3">Booked Scan Deatils  </string>
+    <string name="menu_doctor">Doctor Booking</string>
+    <string name="menu_medicine">Medicine Order</string>
+    <string name="menu_scan">Scan Booking</string>
+    <string name="menu_user">User Deatils</string>
+
+    <string name="editmname1">Pruduct Image </string>
+    <string name="editmname2">User Name </string>
+    <string name="editmname3">Address </string>
+    <string name="editmname4">Quantiry </string>
+
+    //jivi
+    <string name="textdocbag">Booked Scan Deatils</string>
+    <string name="textdocbag1">Edit Scan Deatils</string>
+    <string name="editdocDea1">Edit Scan Details</string>
+    <string name="delettbtn1">Cancel Scan</string>
+    <string name="newbtn"> Password Change</string>
+    <string name="newbtn2">Edit Deatils </string>
+    <string name="newbtn3">Deactivate Account </string>
+    <string name="btnupdate2">Edit Profile </string>
+    <string name="btnupdate3">Enter Your Password  </string>
+    <string name="textdelt">Do you want to deActivate your Profile....? </string>
+
+
+</resources>

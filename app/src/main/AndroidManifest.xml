@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anew">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.New">
+        <activity
+            android:name=".slect_doctor"
+            android:exported="true" />
+        <activity
+            android:name=".DeleteAccount"
+            android:exported="true" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="true" />
+        <activity
+            android:name=".passwordReset"
+            android:exported="true" />
+        <activity
+            android:name=".EditScanbooking"
+            android:exported="true" />
+        <activity
+            android:name=".scanBookings"
+            android:exported="true" />
+        <activity
+            android:name=".mediOrders"
+            android:exported="true" />
+        <activity
+            android:name=".EditMediOrders"
+            android:exported="true" />
+        <activity
+            android:name=".doctorBookings"
+            android:exported="true" />
+        <activity
+            android:name=".Editdoctorbook"
+            android:exported="true" />
+        <activity
+            android:name=".uplodPrescription"
+            android:exported="true" />
+        <activity
+            android:name=".addMedicustomer"
+            android:exported="true" />
+        <activity
+            android:name=".mediBuy"
+            android:exported="true" />
+        <activity
+            android:name=".ScanBooking"
+            android:exported="true" />
+        <activity
+            android:name=".bookSuccessful"
+            android:exported="true" />
+        <activity
+            android:name=".cart2"
+            android:exported="true" />
+        <activity
+            android:name=".doctorAppoinment"
+            android:exported="true" />
+        <activity
+            android:name=".DashbordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainScreen"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

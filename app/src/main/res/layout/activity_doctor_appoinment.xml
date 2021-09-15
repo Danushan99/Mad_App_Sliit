@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doctorAppoinment">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:padding="5sp"
+                android:src="@drawable/iconz"
+                android:contentDescription="@string/imagesInput" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/abeezee"
+                android:paddingTop="25sp"
+                android:text="@string/docbook"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/bookname"
+        android:layout_width="262dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="284dp"
+        android:fontFamily="@font/abeezee"
+        android:hint="@string/p_age"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:paddingStart="60dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textbookname4"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="autofill" />
+
+    <EditText
+        android:id="@+id/bookname4"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/abeezee"
+        android:hint="@string/phone"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingStart="60dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textphone"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="autofill" />
+
+    <EditText
+        android:id="@+id/bookname3"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="164dp"
+
+        android:layout_marginEnd="10dp"
+        android:hint="@string/p_address"
+        android:imeOptions="actionNext"
+        android:inputType="textPostalAddress"
+
+        android:paddingStart="60dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textAddress"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="autofill" />
+
+    <EditText
+        android:id="@+id/textaddd"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/abeezee"
+        android:hint="@string/p_name"
+
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingStart="60dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textbookname"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="autofill" />
+
+    <Button
+        android:id="@+id/RegButton"
+        android:layout_width="128dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/cancel"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnbookappinment"
+        android:layout_width="140dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/bookbtn"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textbookname"
+        android:layout_width="91dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/abeezee"
+        android:gravity="center"
+        android:text="@string/username"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textaddd"
+        app:layout_constraintEnd_toStartOf="@+id/textaddd"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textbookname4"
+        android:layout_width="91dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/abeezee"
+        android:gravity="center"
+        android:text="@string/age"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bookname"
+        app:layout_constraintEnd_toStartOf="@+id/bookname"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textphone"
+        android:layout_width="91dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/abeezee"
+        android:gravity="center"
+        android:text="@string/phonenum"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bookname4"
+        app:layout_constraintEnd_toStartOf="@+id/bookname4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_width="102dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/abeezee"
+        android:gravity="center"
+        android:text="@string/Address"
+        android:textSize="20sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bookname3"
+        app:layout_constraintEnd_toStartOf="@+id/bookname3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <Button
+        android:id="@+id/buttoncalender"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="47dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="344dp"
+        android:text=""
+        app:icon="@android:drawable/ic_menu_my_calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textcalender"
+        android:layout_width="254dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/abeezee"
+        android:gravity="center|start"
+        android:hint="@string/caln"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="91dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/abeezee"
+        android:gravity="center"
+        android:text="@string/date"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textcalender"
+        app:layout_constraintEnd_toStartOf="@+id/textcalender"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="91dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="388dp"
+        android:fontFamily="@font/abeezee"
+        android:gravity="center"
+        android:text="@string/time"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:layout_width="171dp"
+        android:layout_height="112dp"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="392dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toEndOf="@+id/textTime"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:text="@string/Time1"
+            android:textSize="15sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:text="@string/Time2"
+            android:textSize="15sp"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:textSize="15sp"
+            android:text="@string/Time3"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:textSize="15sp"
+            android:text="@string/Time4"
+
+            />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

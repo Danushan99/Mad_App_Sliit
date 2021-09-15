@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uplodPrescription">
+
+
+    <TextView
+        android:id="@+id/doctordesc"
+        android:layout_width="277dp"
+        android:layout_height="71dp"
+        android:fontFamily="@font/abeezee"
+        android:hint="@string/doctordesc"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="293dp"
+        android:layout_height="237dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="260dp"
+            android:layout_height="191dp"
+            app:srcCompat="@drawable/uploadimage" />
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/uploadimage"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="240dp"
+        android:text="@string/uploadimage"
+        app:cornerRadius="15dp"
+        app:icon="@android:drawable/ic_input_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ordernow"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/ordercfm"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cancelorder"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/cancelorder"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/cod"
+        android:layout_width="332dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/abeezee"
+        android:hint="@string/cod"
+        android:textColorHint="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

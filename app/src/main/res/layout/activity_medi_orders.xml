@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mediOrders">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="403dp"
+        android:layout_height="149dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.214">
+
+        <TextView
+            android:id="@+id/orderid"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/orderid"
+            android:gravity="center"
+            android:textColorHint="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="163dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="50dp"
+            android:hint="@string/medidet1"
+            android:gravity="center"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/ordedi1"
+            app:cornerRadius="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="60dp"
+            android:text="EDIT" />
+
+        <ImageView
+
+            android:id="@+id/imageView3"
+            android:layout_width="127dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/medi1" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="405dp"
+        android:layout_height="132dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479">
+
+        <TextView
+            android:id="@+id/orderid2"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/orderid2"
+            android:gravity="center"
+            android:textColorHint="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="158dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:hint="@string/medidet2"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="60dp"
+            android:text="EDIT"
+            app:cornerRadius="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="127dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/medi3" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:id="@+id/allorders"
+        android:layout_width="217dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/allorders"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Editdoctorbook"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/addDocTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editdocDea"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:fontFamily="@font/abeezee"
+        />
+
+    <LinearLayout
+        android:layout_width="388dp"
+        android:layout_height="538dp"
+        android:layout_margin="12dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/docTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:text="@string/p_name"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/docNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/docNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:text="@string/doc_name"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/docNameEdit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/docAuthText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:text="@string/date"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/docAuthEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/docAuthText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:text="@string/time"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/docAuthEdit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_marginBottom="7dp" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/editdocDea"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRemove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/delettbtn"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

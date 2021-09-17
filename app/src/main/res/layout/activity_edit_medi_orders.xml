@@ -5,8 +5,9 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-    tools:context=".EditMediOrders">
+    android:background="@drawable/newbg1"
+    tools:context=".EditMediOrders"
+    >
 
     <TextView
         android:id="@+id/editmedidea1"
@@ -55,9 +56,9 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="399dp"
-        android:layout_height="480dp"
-        android:background="@color/white"
+        android:layout_width="410dp"
+        android:layout_height="486dp"
+        android:background="@drawable/newbg1"
         android:orientation="vertical"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"

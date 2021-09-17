@@ -5,7 +5,8 @@
     android:id="@+id/bnow"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".addMedicustomer">
+    tools:context=".addMedicustomer"
+    android:background="@drawable/newbg1">
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"

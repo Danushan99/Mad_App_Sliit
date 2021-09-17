@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignupActivity">
+    tools:context=".SignupActivity"
+    android:background="@drawable/newbg1">
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="267dp"
-        android:layout_height="326dp"
+        android:layout_width="319dp"
+        android:layout_height="313dp"
         android:layout_marginStart="52dp"
         android:layout_marginEnd="56dp"
         android:layout_marginBottom="405dp"
@@ -73,8 +74,8 @@
 
     <EditText
         android:id="@+id/emailid"
-        android:layout_width="320dp"
-        android:layout_height="44dp"
+        android:layout_width="319dp"
+        android:layout_height="47dp"
         android:hint="@string/email"
         android:imeOptions="actionNext"
         android:inputType="textEmailAddress"
@@ -83,10 +84,10 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56"
+        app:layout_constraintVertical_bias="0.571"
         tools:ignore="autofill" />
 
     <EditText
@@ -140,9 +141,9 @@
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="@+id/emailid"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="@+id/emailid"
         app:layout_constraintTop_toBottomOf="@+id/name"
         app:srcCompat="@drawable/ic_email" />

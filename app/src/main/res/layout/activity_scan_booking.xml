@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ScanBooking">
+    tools:context=".ScanBooking"
+    android:background="@drawable/newbg1">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/c"

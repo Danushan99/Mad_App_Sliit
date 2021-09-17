@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".scanBookings">
+    tools:context=".scanBookings"
+    android:background="@drawable/newbg1">
     <androidx.cardview.widget.CardView
         android:layout_width="403dp"
         android:layout_height="149dp"
@@ -12,7 +13,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.214">
+        app:layout_constraintVertical_bias="0.214"
+        >
 
         <TextView
             android:id="@+id/orderid"

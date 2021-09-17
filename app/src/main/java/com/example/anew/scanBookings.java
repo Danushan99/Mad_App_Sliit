@@ -14,7 +14,7 @@ public class scanBookings extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scan_bookings);
-        editbook=findViewById(R.id.editbtn14);
+        editbook=findViewById(R.id.edititemsBtn1);
         editbook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

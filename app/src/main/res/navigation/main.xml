@@ -38,6 +38,6 @@
     <fragment
         android:id="@+id/doctorFragment"
         android:name="com.example.anew.DoctorFragment"
-        android:label="fragment_doctor"
+        android:label="Doctor Booking"
         tools:layout="@layout/fragment_doctor" />
 </navigation>

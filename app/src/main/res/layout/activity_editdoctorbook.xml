@@ -1,35 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".Editdoctorbook"
-    android:background="@color/colorPrimary">
+    android:background="@drawable/newbg1"
+    tools:context=".Editdoctorbook">
 
     <TextView
         android:id="@+id/addDocTitle"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/editdocDea"
-        android:textSize="25dp"
-        android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
-        android:textStyle="bold"
-        android:padding="10dp"
-        android:textColor="@color/black"
-        android:textAlignment="center"
+        android:layout_marginBottom="12dp"
         android:fontFamily="@font/abeezee"
-        />
+        android:padding="10dp"
+        android:text="@string/editdocDea"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="369dp"
-        android:layout_height="621dp"
-        android:layout_margin="12dp"
-        android:background="@color/white"
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/newbg1"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDocTitle">
 
         <TextView
             android:id="@+id/docTypeText"
@@ -126,4 +139,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

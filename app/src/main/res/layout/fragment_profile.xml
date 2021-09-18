@@ -44,7 +44,6 @@
         android:id="@+id/uiimage"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
@@ -123,7 +122,6 @@
             android:fontFamily="@font/abeezee"
             android:text="0779299587"
             android:textSize="18dp"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.631"
@@ -147,7 +145,7 @@
             app:layout_constraintVertical_bias="0.612" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnedit1"
             android:layout_width="189dp"
             android:layout_height="54dp"
             android:layout_marginBottom="152dp"
@@ -159,7 +157,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/changpaswd"
             android:layout_width="189dp"
             android:layout_height="54dp"
             android:layout_marginBottom="40dp"
@@ -171,7 +169,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/deactivBtn"
             android:layout_width="189dp"
             android:layout_height="54dp"
             android:layout_marginBottom="96dp"

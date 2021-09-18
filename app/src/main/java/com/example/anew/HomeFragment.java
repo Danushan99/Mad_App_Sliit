@@ -22,25 +22,22 @@ public class HomeFragment extends Fragment  {
             R.drawable.slider5,
             R.drawable.slider4};
 
-
-
-
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         //setContentView(R.layout.fragment_home);
-        View view = inflater.inflate(R.layout.fragment_home,container,false);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+
+
         sliderView = view.findViewById(R.id.image_slider);
-
         SliderAdapter sliderAdapter = new SliderAdapter(images);
-
         sliderView.setSliderAdapter(sliderAdapter);
         sliderView.setIndicatorAnimation(IndicatorAnimationType.WORM);
         sliderView.setSliderTransformAnimation(SliderAnimations.DEPTHTRANSFORMATION);
         sliderView.startAutoCycle();
         // Inflate the layout for this fragment
+
         return view;
     }
+
 }

@@ -1,8 +1,8 @@
 package com.example.anew;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Doc_bill extends AppCompatActivity {
 

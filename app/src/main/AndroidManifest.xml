@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.New">
         <activity
+            android:name=".Doc_bill"
+            android:exported="true" />
+        <activity
             android:name=".slect_doctor"
             android:exported="true" />
         <activity

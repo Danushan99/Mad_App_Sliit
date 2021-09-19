@@ -106,7 +106,7 @@
         </RelativeLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
-            android:id="@+id/bagcard4"
+            android:id="@+id/bagcard3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardBackgroundColor="#00000000"

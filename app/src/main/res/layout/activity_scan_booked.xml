@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".scanBookings"
-    android:background="@drawable/newbg1">
+    tools:context=".scanBooked">
     <androidx.cardview.widget.CardView
         android:layout_width="403dp"
         android:layout_height="149dp"
@@ -34,7 +33,7 @@
             android:textColorHint="#000000" />
 
         <Button
-            android:id="@+id/scanedit1"
+            android:id="@+id/scanedit"
             app:cornerRadius="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -114,5 +113,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

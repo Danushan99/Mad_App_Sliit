@@ -7,25 +7,22 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class scanBookings extends AppCompatActivity {
-    private Button editbook;
-
+public class scanBooked extends AppCompatActivity {
+    private Button editbook1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scan_bookings);
-        editbook=findViewById(R.id.edititemsBtn1);
-        editbook.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_scan_booked);
+        editbook1=findViewById(R.id.scanedit);
+        editbook1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View i) {
                 openActivity1();
             }
 
             private void openActivity1() {//success page button navigation
-                Intent intent= new Intent(scanBookings.this,EditScanbooking.class);
+                Intent intent= new Intent(scanBooked.this,EditScanbooking.class);
                 startActivity(intent);
 
             }
-        });
-    }
-}
+        });}}

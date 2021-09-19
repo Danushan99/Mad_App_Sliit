@@ -28,7 +28,7 @@ public class myBagFragment extends Fragment implements View.OnClickListener{
         View myView=inflater.inflate(R.layout.fragment_my_bag,container,false);
         bagcard1=(CardView) myView.findViewById(R.id.bagcard1);
         bagcard2=(CardView) myView.findViewById(R.id.bagcard2);
-        bagcard3=(CardView) myView.findViewById(R.id.bagcard4);
+        bagcard3=(CardView) myView.findViewById(R.id.bagcard3);
         bagcard1.setOnClickListener(this);
         bagcard2.setOnClickListener(this);
         bagcard3.setOnClickListener(this);
@@ -43,13 +43,13 @@ public class myBagFragment extends Fragment implements View.OnClickListener{
                 R.id.bagcard1:
                 startActivity(new Intent(this.requireContext(),doctorBookings.class));
                 break;
-         case
+            case
                  R.id.bagcard2:
              startActivity(new Intent(this.requireContext(),mediOrders.class));
              break;
 
-            case R.id.bagcard4:
-                startActivity(new Intent(this.requireContext(),EditScanbooking.class));
+            case R.id.bagcard3:
+                startActivity(new Intent(this.requireContext(),scanBooked.class));
                 break;
 
         }

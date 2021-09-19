@@ -110,8 +110,8 @@
 
         <Button
             android:id="@+id/btnSubmit"
-            android:layout_width="230dp"
-            android:layout_height="wrap_content"
+            android:layout_width="392dp"
+            android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:background="@color/colorPrimaryDark"
             android:text="@string/editdocDea1"
@@ -120,8 +120,8 @@
 
         <Button
             android:id="@+id/btnRemove"
-            android:layout_width="233dp"
-            android:layout_height="wrap_content"
+            android:layout_width="390dp"
+            android:layout_height="59dp"
             android:layout_marginTop="10dp"
             android:background="@color/colorPrimaryDark"
             android:text="@string/delettbtn1"

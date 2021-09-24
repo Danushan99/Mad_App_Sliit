@@ -33,3 +33,7 @@ time slots. That’s because no-shows and cancellations can have a direct bearin
 your bottom line. With an app, you can set reminders and notifications to keep noshows at bay. And even if patients miss their visits, you can reschedule back-to-back 
 appointments straight away to avoid losing money due to an unused time slot
 
+By developing a medical appointment booking system, clinics can also prevent 
+overlapping appointments. They are the bane of all healthcare businesses. Double 
+bookings often result from human error, and an automated solution can help prevent 
+them from being made in the first place.

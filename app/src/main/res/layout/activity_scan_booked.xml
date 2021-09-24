@@ -16,14 +16,6 @@
         >
 
         <TextView
-            android:id="@+id/orderid"
-            android:layout_width="197dp"
-            android:layout_height="43dp"
-            android:hint="@string/orderid"
-            android:textColorHint="#000000"
-            android:textSize="20sp" />
-
-        <TextView
             android:id="@+id/textView5"
             android:layout_width="163dp"
             android:layout_height="64dp"
@@ -61,14 +53,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.479">
-
-        <TextView
-            android:id="@+id/orderid2"
-            android:layout_width="197dp"
-            android:layout_height="43dp"
-            android:hint="@string/orderid2"
-            android:textColorHint="#000000"
-            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView6"

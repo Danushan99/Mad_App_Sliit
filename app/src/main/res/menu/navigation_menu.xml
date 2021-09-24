@@ -40,7 +40,7 @@
             <item
                 android:id="@+id/setting"
                 android:icon="@drawable/settings"
-                android:title="setting"/>
+                android:title="Logout"/>
         </menu>
     </item>
 

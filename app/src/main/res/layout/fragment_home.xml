@@ -47,7 +47,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/hcard1"
         android:layout_width="106dp"
-        android:layout_height="109dp"
+        android:layout_height="97dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="30dp"
@@ -57,19 +57,11 @@
         <ImageView
             android:id="@+id/imageView12"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="match_parent"
             android:src="@drawable/option">
 
 
         </ImageView>
-
-        <Button
-            android:id="@+id/homebtn1"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_gravity="center|bottom"
-            android:text="Button"
-            android:textSize="10dp" />
 
 
     </androidx.cardview.widget.CardView>

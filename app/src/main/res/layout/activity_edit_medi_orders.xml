@@ -27,8 +27,8 @@
 
     <Button
         android:id="@+id/btnSubmit"
-        android:layout_width="128dp"
-        android:layout_height="50dp"
+        android:layout_width="126dp"
+        android:layout_height="54dp"
         android:layout_marginStart="232dp"
         android:layout_marginBottom="108dp"
         android:background="@color/colorPrimaryDark"
@@ -42,8 +42,8 @@
 
     <Button
         android:id="@+id/btnRemove"
-        android:layout_width="144dp"
-        android:layout_height="51dp"
+        android:layout_width="140dp"
+        android:layout_height="57dp"
 
         android:layout_marginStart="28dp"
         android:layout_marginBottom="108dp"

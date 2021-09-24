@@ -40,3 +40,6 @@ them from being made in the first place.
 
 This is all too important to disregard amid the pandemic turmoil. You want to 
 minimize the number of patients in your waiting room to ensure you meet socialdistancing requirements.
+
+Contribution 
+- Danushan Ravendran 

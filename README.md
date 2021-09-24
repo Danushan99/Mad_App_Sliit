@@ -7,3 +7,8 @@ group members decided to develop an android application. "MediOne" is a mobileb
 doctor, Buy medicines, and Book for a scan in from the home.
 There are many varieties of health apps available for purchase from app stores. 
 Some are designed to help consumers make healthier choices.
+
+With an app, patients no longer need to call your office to schedule appointments. 
+Instead, in just a few taps or clicks, they can arrange visits with their doctors at a 
+time that works for them. This saves both you and your patient’s time. From a clinic's 
+perspective.

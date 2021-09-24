@@ -44,7 +44,8 @@ minimize the number of patients in your waiting room to ensure you meet sociald
 <h1>
 Contribution </h1>
 <h2>
- - Danushan Ravendran - IT20051648 -
- - Jivishan Thirukumaran - IT20116392 - 
- 
+ -  Danushan Ravendran     -  IT20051648 -<br>
+ -  Jivishan Thirukumaran  -  IT20116392 - <br>
+ <br>
+ -  Kobigan Krishnananthan -  IT20212254 - <br>
  </h2>

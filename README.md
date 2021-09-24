@@ -37,3 +37,6 @@ By developing a medical appointment booking system, clinics can also prevent
 overlapping appointments. They are the bane of all healthcare businesses. Double 
 bookings often result from human error, and an automated solution can help prevent 
 them from being made in the first place.
+
+This is all too important to disregard amid the pandemic turmoil. You want to 
+minimize the number of patients in your waiting room to ensure you meet socialdistancing requirements.

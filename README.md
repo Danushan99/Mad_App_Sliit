@@ -12,3 +12,14 @@ With an app, patients no longer need to call your office to schedule appointment
 Instead, in just a few taps or clicks, they can arrange visits with their doctors at a 
 time that works for them. This saves both you and your patient’s time. From a clinic's 
 perspective.
+
+The “MediOne” is aimed to provide an excellent and friendly service for the users. In 
+order to achieve the goal, the system provides various interfaces to facilitate their 
+customers through digital responsive platforms. It reduces the operational cost and 
+manual work. Customers are facilitated to place Book an order, Buy medicines for 
+urgent medical needs online from the comfort of their own home. Customer can 
+register themselves and create an account by providing details. And They can 
+change password. Registered customers can Book through our system.
+ An admin is given an account to handle administrative tasks.
+
+

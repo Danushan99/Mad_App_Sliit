@@ -1,5 +1,5 @@
 # Mad_App_Sliit
-<h1> MEDI ONE<h1>
+<h1> MEDI ONE</h1>
 <H1>Introduction about our Project</H1>
 
 in this Covid-19 pandemic situation, we have facing lots of health problems and 
@@ -42,8 +42,8 @@ them from being made in the first place.
 This is all too important to disregard amid the pandemic turmoil. You want to 
 minimize the number of patients in your waiting room to ensure you meet socialdistancing requirements.
 <h1>
-Contribution <h1>
+Contribution </h1>
 <h2> - Danushan Ravendran - IT20051648 -
  
  
- <h2>
+ </h2>

@@ -106,8 +106,8 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="371dp"
-            android:layout_height="95dp"
+            android:layout_width="356dp"
+            android:layout_height="90dp"
             android:fontFamily="@font/abeezee"
             android:text="Once vaccines are demonstrated to be safe and efficacious, they must be authorized by national regulators, manufactured to exacting standards, and distributed. WHO is working with partners around the world to help coordinate key steps in this process"
             android:textAlignment="center"
@@ -135,7 +135,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.094" />
+            app:layout_constraintVertical_bias="0.067" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".doctorBookings"
+    tools:context=".doctor.doctorBookings"
     android:background="@drawable/newbg1">
 
     <androidx.cardview.widget.CardView

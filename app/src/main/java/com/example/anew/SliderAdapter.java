@@ -5,6 +5,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.example.anew.SliderAdapter.Holder;
 import com.smarteist.autoimageslider.SliderViewAdapter;
 
@@ -39,7 +41,7 @@ public class SliderAdapter extends SliderViewAdapter<Holder> {
         return images.length;
     }
 
-    public static class Holder extends  ViewHolder{
+    public static class Holder extends ViewHolder{
 
         ImageView imageView;
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".EditProfile"
+    tools:context=".user.EditProfile"
     android:background="@drawable/newbg1">
 
 
@@ -59,7 +59,7 @@
         android:layout_marginStart="-2dp"
         android:layout_marginTop="1dp">
 
-        <TextView
+        <EditText
             android:id="@+id/textView11"
             android:layout_width="183dp"
             android:layout_height="37dp"
@@ -90,7 +90,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.523" />
 
-        <TextView
+        <EditText
             android:id="@+id/textView9"
             android:layout_width="183dp"
             android:layout_height="41dp"
@@ -121,13 +121,13 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.608" />
 
-        <TextView
+        <EditText
+            android:id="@+id/textView13"
             android:layout_width="183dp"
             android:layout_height="37dp"
             android:fontFamily="@font/abeezee"
             android:text="0779299587"
             android:textSize="18dp"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.634"

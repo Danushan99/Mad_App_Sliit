@@ -7,6 +7,9 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.anew.user.LoginActivity;
+import com.example.anew.user.SignupActivity;
+
 import java.util.Objects;
 
 public class MainScreen extends AppCompatActivity {
@@ -23,7 +26,7 @@ private Button buttonSignup;
             buttonLogin.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent=new Intent(MainScreen.this,LoginActivity.class);
+                    Intent intent=new Intent(MainScreen.this, LoginActivity.class);
                     startActivity(intent);
                 }
             });
@@ -32,7 +35,7 @@ private Button buttonSignup;
                 buttonSignup.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent=new Intent(MainScreen.this,SignupActivity.class);
+                        Intent intent=new Intent(MainScreen.this, SignupActivity.class);
                         startActivity(intent);
                     }
                 });

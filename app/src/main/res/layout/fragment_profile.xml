@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/newbg1"
-    tools:context=".profileFragment">
+    tools:context=".medicin.profileFragment">
 
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -59,8 +59,6 @@
             android:layout_width="183dp"
             android:layout_height="37dp"
             android:fontFamily="@font/abeezee"
-            android:text="Jivisan@gamil.com"
-
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -90,8 +88,6 @@
             android:layout_width="183dp"
             android:layout_height="37dp"
             android:fontFamily="@font/abeezee"
-            android:text="Jivisan Thirukumaran"
-
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -117,10 +113,10 @@
             app:layout_constraintVertical_bias="0.523" />
 
         <TextView
+            android:id="@+id/textView20"
             android:layout_width="183dp"
             android:layout_height="37dp"
             android:fontFamily="@font/abeezee"
-            android:text="0779299587"
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

@@ -5,7 +5,7 @@
     android:background="@drawable/bgdark"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".medicineFragment">
+    tools:context=".medicin.medicineFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

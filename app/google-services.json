@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "368422476508",
+    "firebase_url": "https://medi-one-default-rtdb.firebaseio.com",
+    "project_id": "medi-one",
+    "storage_bucket": "medi-one.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368422476508:android:d8ac324f2a8df46c9ff219",
+        "android_client_info": {
+          "package_name": "com.example.anew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368422476508-4oa3b0a2bdjov2tj1ciln5348h2na2lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRPznTqYGiNBF_NaDdCwqfVyQvTaJqNEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368422476508-4oa3b0a2bdjov2tj1ciln5348h2na2lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

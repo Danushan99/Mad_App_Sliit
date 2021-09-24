@@ -1,4 +1,4 @@
-package com.example.anew;
+package com.example.anew.user;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.anew.DashbordActivity;
+import com.example.anew.R;
 
 import java.util.Objects;
 
@@ -32,10 +35,10 @@ private TextView newAcco2;
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.Login:
-                startActivity(new Intent(LoginActivity.this,DashbordActivity.class));
+                startActivity(new Intent(LoginActivity.this, DashbordActivity.class));
                 break;
             case R.id.newAcco2:
-                startActivity(new Intent(LoginActivity.this,SignupActivity.class));
+                startActivity(new Intent(LoginActivity.this, SignupActivity.class));
                 break;
         }
 

@@ -1,4 +1,4 @@
-package com.example.anew;
+package com.example.anew.medicin;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,9 @@ import android.view.ViewGroup;
 
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+
+import com.example.anew.R;
+import com.example.anew.doctor.mediBuy;
 
 
 public class medicineFragment extends Fragment implements View.OnClickListener {
@@ -34,7 +37,7 @@ public class medicineFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.mcard1:
-                startActivity(new Intent(this.requireContext(),mediBuy.class));
+                startActivity(new Intent(this.requireContext(), mediBuy.class));
         }
     }
 }

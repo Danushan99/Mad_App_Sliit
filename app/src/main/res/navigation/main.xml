@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/menuprofile"
-        android:name="com.example.anew.profileFragment"
+        android:name="com.example.anew.medicin.profileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
@@ -22,22 +22,22 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/menu_medicine"
-        android:name="com.example.anew.medicineFragment"
+        android:name="com.example.anew.medicin.medicineFragment"
         android:label="Medicine"
         tools:layout="@layout/fragment_medicine" />
     <fragment
         android:id="@+id/menuscan"
-        android:name="com.example.anew.ScanFragment"
+        android:name="com.example.anew.scan.ScanFragment"
         android:label="Scan Booking"
         tools:layout="@layout/fragment_scan" />
     <fragment
         android:id="@+id/menumybage"
-        android:name="com.example.anew.myBagFragment"
+        android:name="com.example.anew.mybag.myBagFragment"
         android:label="My Bag"
         tools:layout="@layout/fragment_my_bag" />
     <fragment
         android:id="@+id/doctorFragment"
-        android:name="com.example.anew.DoctorFragment"
+        android:name="com.example.anew.doctor.DoctorFragment"
         android:label="Doctor Booking"
         tools:layout="@layout/fragment_doctor" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.anew;
+package com.example.anew.medicin;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.anew.R;
 
 public class mediOrders extends AppCompatActivity {
 private Button editord;
@@ -21,7 +23,7 @@ private Button editord;
             }
 
             private void openActivity3() {//success page button navigation
-                Intent intent= new Intent(mediOrders.this,EditMediOrders.class);
+                Intent intent= new Intent(mediOrders.this, EditMediOrders.class);
                 startActivity(intent);
 
             }

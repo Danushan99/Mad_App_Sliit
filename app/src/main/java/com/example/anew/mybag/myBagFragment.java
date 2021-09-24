@@ -1,4 +1,4 @@
-package com.example.anew;
+package com.example.anew.mybag;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,11 @@ import android.view.ViewGroup;
 
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+
+import com.example.anew.R;
+import com.example.anew.doctor.doctorBookings;
+import com.example.anew.medicin.mediOrders;
+import com.example.anew.scan.scanBooked;
 
 public class myBagFragment extends Fragment implements View.OnClickListener{
     private CardView bagcard1,bagcard2,bagcard3;
@@ -41,15 +46,15 @@ public class myBagFragment extends Fragment implements View.OnClickListener{
         switch (v.getId()){
             case
                 R.id.bagcard1:
-                startActivity(new Intent(this.requireContext(),doctorBookings.class));
+                startActivity(new Intent(this.requireContext(), doctorBookings.class));
                 break;
             case
                  R.id.bagcard2:
-             startActivity(new Intent(this.requireContext(),mediOrders.class));
+             startActivity(new Intent(this.requireContext(), mediOrders.class));
              break;
 
             case R.id.bagcard3:
-                startActivity(new Intent(this.requireContext(),scanBooked.class));
+                startActivity(new Intent(this.requireContext(), scanBooked.class));
                 break;
 
         }

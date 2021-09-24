@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.anew" >
-
+<uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.New" >
         <activity
-            android:name=".scanBooked"
+            android:name=".scan.scanBooked"
             android:exported="true" />
         <activity
-            android:name=".Doc_bill"
+            android:name=".doctor.Doc_bill"
             android:exported="true" />
         <activity
-            android:name=".slect_doctor"
+            android:name=".doctor.slect_doctor"
             android:exported="true" />
         <activity
-            android:name=".DeleteAccount"
+            android:name=".user.DeleteAccount"
             android:exported="true" />
         <activity
-            android:name=".EditProfile"
+            android:name=".user.EditProfile"
             android:exported="true" />
         <activity
-            android:name=".passwordReset"
+            android:name=".user.passwordReset"
             android:exported="true" />
         <activity
-            android:name=".EditScanbooking"
+            android:name=".scan.EditScanbooking"
             android:exported="true" />
         <activity
-            android:name=".mediOrders"
+            android:name=".medicin.mediOrders"
             android:exported="true" />
         <activity
-            android:name=".EditMediOrders"
+            android:name=".medicin.EditMediOrders"
             android:exported="true" />
         <activity
-            android:name=".doctorBookings"
+            android:name=".doctor.doctorBookings"
             android:exported="true" />
         <activity
-            android:name=".Editdoctorbook"
+            android:name=".doctor.Editdoctorbook"
             android:exported="true" />
         <activity
             android:name=".uplodPrescription"
             android:exported="true" />
         <activity
-            android:name=".addMedicustomer"
+            android:name=".medicin.addMedicustomer"
             android:exported="true" />
         <activity
-            android:name=".mediBuy"
+            android:name=".doctor.mediBuy"
             android:exported="true" />
         <activity
-            android:name=".ScanBooking"
+            android:name=".scan.ScanBooking"
             android:exported="true" />
         <activity
-            android:name=".bookSuccessful"
+            android:name=".doctor.bookSuccessful"
             android:exported="true" />
         <activity
-            android:name=".cart2"
-            android:exported="true" />
-        <activity
-            android:name=".doctorAppoinment"
+            android:name=".doctor.doctorAppoinment"
             android:exported="true" />
         <activity
             android:name=".DashbordActivity"
             android:exported="true" />
         <activity
-            android:name=".SignupActivity"
+            android:name=".user.SignupActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".user.LoginActivity"
             android:exported="true" />
         <activity
             android:name=".MainScreen"

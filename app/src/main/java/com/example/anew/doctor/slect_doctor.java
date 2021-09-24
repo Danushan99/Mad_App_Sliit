@@ -1,14 +1,16 @@
-package com.example.anew;
+package com.example.anew.doctor;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class EditMediOrders extends AppCompatActivity {
+import com.example.anew.R;
+
+public class slect_doctor extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit_medi_orders);
+        setContentView(R.layout.activity_slect_doctor);
     }
 }

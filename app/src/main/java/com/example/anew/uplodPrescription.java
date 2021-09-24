@@ -7,6 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.anew.doctor.bookSuccessful;
+
 public class uplodPrescription extends AppCompatActivity {
 private Button orderbtn;
     @Override
@@ -18,7 +20,7 @@ private Button orderbtn;
         {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(uplodPrescription.this,bookSuccessful.class);
+                Intent intent=new Intent(uplodPrescription.this, bookSuccessful.class);
                 startActivity(intent);
 
             }

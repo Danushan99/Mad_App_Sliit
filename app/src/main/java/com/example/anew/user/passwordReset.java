@@ -1,8 +1,10 @@
-package com.example.anew;
+package com.example.anew.user;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.anew.R;
 
 public class passwordReset extends AppCompatActivity {
 

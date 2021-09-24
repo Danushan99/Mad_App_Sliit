@@ -43,7 +43,8 @@ This is all too important to disregard amid the pandemic turmoil. You want to
 minimize the number of patients in your waiting room to ensure you meet socialdistancing requirements.
 <h1>
 Contribution </h1>
-<h2> - Danushan Ravendran - IT20051648 - ....
-
+<h2>
+ - Danushan Ravendran - IT20051648 -
+ - Jivishan Thirukumaran - IT20116392 - 
  
  </h2>

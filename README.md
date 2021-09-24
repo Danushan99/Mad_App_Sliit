@@ -22,4 +22,14 @@ register themselves and create an account by providing details. And They can
 change password. Registered customers can Book through our system.
  An admin is given an account to handle administrative tasks.
 
+An app platform is the backbone of a booking system software. It automates the 
+appointment booking processes your staff may have trouble handling manually (e.g., 
+entering patients’ personal details, setting up doctors’ time slots, dealing with 
+paperwork, etc.). An app is also particularly helpful for tracking revisits and improving 
+clinic-patient communication. This can result in less hassle when confirming, 
+canceling, or rescheduling appointments. When your hospital appointment 
+management system is based on an app or a web platform, you can minimize unused 
+time slots. That’s because no-shows and cancellations can have a direct bearing on 
+your bottom line. With an app, you can set reminders and notifications to keep noshows at bay. And even if patients miss their visits, you can reschedule back-to-back 
+appointments straight away to avoid losing money due to an unused time slot
 

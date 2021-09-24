@@ -45,7 +45,7 @@ public class DeleteAccount extends AppCompatActivity {
 
             }
         });
-
+//jivishan_delete_account
         DleCancel = findViewById(R.id.DleCancel);
         DleCancel.setOnClickListener(new View.OnClickListener() {
             @Override

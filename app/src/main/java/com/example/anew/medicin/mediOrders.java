@@ -22,9 +22,11 @@ private Button editord;
                 openActivity3();
             }
 
+
             private void openActivity3() {//success page button navigation
                 Intent intent= new Intent(mediOrders.this, EditMediOrders.class);
                 startActivity(intent);
+
             }
         });
     }

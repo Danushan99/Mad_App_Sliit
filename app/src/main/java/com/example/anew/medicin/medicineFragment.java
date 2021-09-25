@@ -20,7 +20,6 @@ public class medicineFragment extends Fragment implements View.OnClickListener {
     public medicineFragment() {
         // Required empty public
     }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

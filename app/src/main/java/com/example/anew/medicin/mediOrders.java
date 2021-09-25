@@ -25,7 +25,6 @@ private Button editord;
             private void openActivity3() {//success page button navigation
                 Intent intent= new Intent(mediOrders.this, EditMediOrders.class);
                 startActivity(intent);
-
             }
         });
     }

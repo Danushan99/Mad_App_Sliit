@@ -56,12 +56,7 @@ public class addMedicustomer extends AppCompatActivity {
                         startActivity(intent);
                     }
                 });
-
-
             }
-
-
-
         });
     }
 }

@@ -21,9 +21,6 @@ public class medicineFragment extends Fragment implements View.OnClickListener {
         // Required empty public
     }
 
-
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

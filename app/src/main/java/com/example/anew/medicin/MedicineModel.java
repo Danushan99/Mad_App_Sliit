@@ -69,7 +69,7 @@ public class MedicineModel {
         this.medicineName = medicineName;
         this.quantity = quantity;
     }
-   //variable declaration
+  
 
     public MedicineModel(){
 

@@ -62,9 +62,9 @@ public class Editdoctorbook extends AppCompatActivity {
             @Override
             public void onCancelled(DatabaseError databaseError){
                 // TODO: Implement this method
-                Toast.makeText(Editdoctorbook.this, databaseError.getDetails()+" "+databaseError.getMessage(), Toast.LENGTH_LONG).show();
+                Toast.makeText(Editdoctorbook.this,
+                        databaseError.getDetails()+" "+databaseError.getMessage(), Toast.LENGTH_LONG).show();
             }
-
         });
 
         Button editDetails = findViewById(R.id.btnSubmit);
@@ -89,8 +89,8 @@ public class Editdoctorbook extends AppCompatActivity {
                         .addOnSuccessListener(new OnSuccessListener<Void>(){
                     @Override
                     public void onSuccess(Void mVoid){
-                        Toast.makeText(Editdoctorbook.this,"Deleted sucessfuly",Toast.LENGTH_SHORT).show();
-
+                        Toast.makeText(Editdoctorbook.this,
+                                "Deleted sucessfuly",Toast.LENGTH_SHORT).show();
                         finish();
                     }
                 });

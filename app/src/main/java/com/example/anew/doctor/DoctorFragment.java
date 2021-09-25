@@ -13,7 +13,6 @@ import com.example.anew.R;
 
 
 public class DoctorFragment extends Fragment implements View.OnClickListener {
-
     private CardView card1;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

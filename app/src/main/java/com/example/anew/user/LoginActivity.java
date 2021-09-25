@@ -17,6 +17,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 private Button buttonLogin;
 private TextView newAcco2;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +31,7 @@ private TextView newAcco2;
 
 
     }
+
 
     @Override
     public void onClick(View v) {

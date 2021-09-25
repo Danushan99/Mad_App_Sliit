@@ -71,6 +71,8 @@ public class EditMediOrders extends AppCompatActivity {
             }
         });
 
+
+
         Button delete = findViewById(R.id.btnRemove);
         delete.setOnClickListener(new View.OnClickListener() {
             @Override

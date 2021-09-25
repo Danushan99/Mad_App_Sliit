@@ -68,8 +68,7 @@ public class MedicineModel {
         this.phoneNo = phoneNo;
         this.medicineName = medicineName;
         this.quantity = quantity;
-    }s
+    }
     public MedicineModel(){
-
     }
 }

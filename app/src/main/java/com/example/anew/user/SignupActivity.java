@@ -30,7 +30,6 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
     EditText EditTextname,EditTextemail,EditTextphonenum,EditTextpassword,EditTextrepassword;
     DatabaseReference mDatabaseReference;
     FirebaseDatabase mFirebaseInstance;
-
     private FirebaseAuth auth;
 
     @Override
@@ -119,11 +118,13 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             if (task.isSuccessful()){
-                                Toast.makeText(SignupActivity.this,"Register sucessfuly",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SignupActivity.this,
+                                        "Register sucessfuly",Toast.LENGTH_SHORT).show();
                                 finish();
                             }
                             else{
-                                Toast.makeText(SignupActivity.this,"Register unsucessfuly",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SignupActivity.this,
+                                        "Register unsucessfuly",Toast.LENGTH_SHORT).show();
 
                             }
                         }

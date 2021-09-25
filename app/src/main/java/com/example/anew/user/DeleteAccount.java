@@ -34,7 +34,8 @@ public class DeleteAccount extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                mDatabaseReference.child("mvnSUBWLxUcvcG78rDzkbHwoea72").removeValue().addOnSuccessListener(new OnSuccessListener<Void>(){
+                mDatabaseReference.child("mvnSUBWLxUcvcG78rDzkbHwoea72")
+                        .removeValue().addOnSuccessListener(new OnSuccessListener<Void>(){
                     @Override
                     public void onSuccess(Void mVoid){
                         Intent login = new Intent(DeleteAccount.this, SplashScreen.class);

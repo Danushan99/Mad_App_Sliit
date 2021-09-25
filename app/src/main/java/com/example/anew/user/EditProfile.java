@@ -52,7 +52,8 @@ public class EditProfile extends AppCompatActivity {
             @Override
             public void onCancelled(DatabaseError databaseError){
                 // TODO: Implement this method
-                Toast.makeText(EditProfile.this, databaseError.getDetails()+" "+databaseError.getMessage(), Toast.LENGTH_LONG).show();
+                Toast.makeText(EditProfile.this,
+                        databaseError.getDetails()+" "+databaseError.getMessage(), Toast.LENGTH_LONG).show();
             }
 
         });
@@ -61,7 +62,8 @@ public class EditProfile extends AppCompatActivity {
         editProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                UserModel userModel = new UserModel(name.getText().toString(), email.getText().toString(), phone.getText().toString(),"");
+                UserModel userModel = new UserModel(name.getText().toString(),
+                        email.getText().toString(), phone.getText().toString(),"");
                 FirebaseDatabase.getInstance().getReference("Users")
                         .child("mvnSUBWLxUcvcG78rDzkbHwoea72")
                         .setValue(userModel).addOnCompleteListener(new OnCompleteListener<Void>() {

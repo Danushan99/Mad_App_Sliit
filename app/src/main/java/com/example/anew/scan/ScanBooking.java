@@ -47,9 +47,12 @@ public class ScanBooking extends AppCompatActivity {
             }
 
             private void openActivitySuc() {//success page button navigation
-                ScanModel scan = new ScanModel("X-ray" ,name.getText().toString(), address.getText().toString(),phone.getText().toString(),
+                ScanModel scan = new ScanModel("X-ray" ,name.getText().toString()
+                        , address.getText().toString(),phone.getText().toString(),
                         age.getText().toString(),"13/03/2021");
-                mDatabaseReference.child("Scans").child("MkHtB_sS7UDK6cIEkmT").setValue(scan).addOnSuccessListener(ScanBooking.this, new OnSuccessListener<Void>(){
+                mDatabaseReference.child("Scans")
+                        .child("MkHtB_sS7UDK6cIEkmT").setValue(scan).addOnSuccessListener
+                        (ScanBooking.this, new OnSuccessListener<Void>(){
                     @Override
                     public void onSuccess(Void mVoid){
                         Intent intent= new Intent(ScanBooking.this, bookSuccessful.class);

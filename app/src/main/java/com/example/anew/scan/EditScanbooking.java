@@ -31,7 +31,8 @@ public class EditScanbooking extends AppCompatActivity {
         FirebaseApp.initializeApp(this);
         mFirebaseInstance = FirebaseDatabase.getInstance();
         mDatabaseReference = mFirebaseInstance.getReference("medione");
-        mDatabaseReference.child("Scans").child("MkHtB_sS7UDK6cIEkmT").addValueEventListener(new ValueEventListener(){
+        mDatabaseReference.child("Scans").child("MkHtB_sS7UDK6cIEkmT")
+                .addValueEventListener(new ValueEventListener(){
             @Override
             public void onDataChange(DataSnapshot dataSnapshot){
                 ScanModel scanModel = dataSnapshot.getValue(ScanModel.class);
@@ -51,7 +52,8 @@ public class EditScanbooking extends AppCompatActivity {
             @Override
             public void onCancelled(DatabaseError databaseError){
                 // TODO: Implement this method
-                Toast.makeText(EditScanbooking.this, databaseError.getDetails()+" "+databaseError.getMessage(), Toast.LENGTH_LONG).show();
+                Toast.makeText(EditScanbooking.this,
+                        databaseError.getDetails()+" "+databaseError.getMessage(), Toast.LENGTH_LONG).show();
             }
 
         });
@@ -65,7 +67,8 @@ public class EditScanbooking extends AppCompatActivity {
                 medicineModel.setPatientAddress(doctor.getText().toString());
                 medicineModel.setQuantity(date.getText().toString());
                 medicineModel.setQuantity(time.getText().toString());
-                FirebaseDatabase.getInstance().getReference("medione").child("Scans").child("MkHtB_sS7UDK6cIEkmT").setValue(medicineModel);
+                FirebaseDatabase.getInstance().getReference("medione").child("Scans")
+                        .child("MkHtB_sS7UDK6cIEkmT").setValue(medicineModel);
             }
         });
 
@@ -73,10 +76,12 @@ public class EditScanbooking extends AppCompatActivity {
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mDatabaseReference.child("Scans").child("MkHtB_sS7UDK6cIEkmT").removeValue().addOnSuccessListener(new OnSuccessListener<Void>(){
+                mDatabaseReference.child("Scans").child("MkHtB_sS7UDK6cIEkmT")
+                        .removeValue().addOnSuccessListener(new OnSuccessListener<Void>(){
                     @Override
                     public void onSuccess(Void mVoid){
-                        Toast.makeText(EditScanbooking.this,"Deleted sucessfuly",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(EditScanbooking.this,"Deleted sucessfuly",
+                                Toast.LENGTH_SHORT).show();
 
                         finish();
                     }

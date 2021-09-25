@@ -33,7 +33,8 @@ public class EditMediOrders extends AppCompatActivity {
         FirebaseApp.initializeApp(this);
         mFirebaseInstance = FirebaseDatabase.getInstance();
         mDatabaseReference = mFirebaseInstance.getReference("medione");
-        mDatabaseReference.child("Medicine").child("MkI1k44O_feft_Wu3d2").addValueEventListener(new ValueEventListener(){
+        mDatabaseReference.child("Medicine").child("MkI1k44O_feft_Wu3d2")
+                .addValueEventListener(new ValueEventListener(){
             @Override
             public void onDataChange(DataSnapshot dataSnapshot){
                 MedicineModel appointmentModel = dataSnapshot.getValue(MedicineModel.class);
@@ -51,7 +52,8 @@ public class EditMediOrders extends AppCompatActivity {
             @Override
             public void onCancelled(DatabaseError databaseError){
                 // TODO: Implement this method
-                Toast.makeText(EditMediOrders.this, databaseError.getDetails()+" "+databaseError.getMessage(), Toast.LENGTH_LONG).show();
+                Toast.makeText(EditMediOrders.this,
+                        databaseError.getDetails()+" "+databaseError.getMessage(), Toast.LENGTH_LONG).show();
             }
 
         });
@@ -64,7 +66,8 @@ public class EditMediOrders extends AppCompatActivity {
                 medicineModel.setPatientName(name.getText().toString());
                 medicineModel.setPatientAddress(address.getText().toString());
                 medicineModel.setQuantity(quantity.getText().toString());
-                FirebaseDatabase.getInstance().getReference("medione").child("Medicine").child("MkI1k44O_feft_Wu3d2").setValue(medicineModel);
+                FirebaseDatabase.getInstance().getReference("medione").child("Medicine")
+                        .child("MkI1k44O_feft_Wu3d2").setValue(medicineModel);
             }
         });
 
@@ -72,10 +75,12 @@ public class EditMediOrders extends AppCompatActivity {
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mDatabaseReference.child("Medicine").child("MkI1k44O_feft_Wu3d2").removeValue().addOnSuccessListener(new OnSuccessListener<Void>(){
+                mDatabaseReference.child("Medicine").child("MkI1k44O_feft_Wu3d2")
+                        .removeValue().addOnSuccessListener(new OnSuccessListener<Void>(){
                     @Override
                     public void onSuccess(Void mVoid){
-                        Toast.makeText(EditMediOrders.this,"Deleted sucessfuly",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(EditMediOrders.this,"Deleted sucessfuly"
+                                ,Toast.LENGTH_SHORT).show();
 
                         finish();
                     }

@@ -44,9 +44,12 @@ public class addMedicustomer extends AppCompatActivity {
         {
             @Override
             public void onClick(View v) {
-                MedicineModel medicine = new MedicineModel(name.getText().toString(), address.getText().toString(),phone.getText().toString(),
+                MedicineModel medicine = new MedicineModel(name.getText().toString()
+                        , address.getText().toString(),phone.getText().toString(),
                         age.getText().toString(),"Panadol",quality.getText().toString());
-                mDatabaseReference.child("Medicine").child("MkI1k44O_feft_Wu3d2").setValue(medicine).addOnSuccessListener(addMedicustomer.this, new OnSuccessListener<Void>(){
+                mDatabaseReference.child("Medicine").child("MkI1k44O_feft_Wu3d2")
+                        .setValue(medicine).addOnSuccessListener(addMedicustomer.this,
+                        new OnSuccessListener<Void>(){
                     @Override
                     public void onSuccess(Void mVoid){
                         Intent intent=new Intent(addMedicustomer.this, uplodPrescription.class);

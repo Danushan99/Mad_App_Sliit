@@ -41,7 +41,8 @@ public class Editdoctorbook extends AppCompatActivity {
         FirebaseApp.initializeApp(this);
         mFirebaseInstance = FirebaseDatabase.getInstance();
         mDatabaseReference = mFirebaseInstance.getReference("medione");
-        mDatabaseReference.child("Appointments").child("MkHoyezUmubrwwxAv4n").addValueEventListener(new ValueEventListener(){
+        mDatabaseReference.child("Appointments").child("MkHoyezUmubrwwxAv4n")
+                .addValueEventListener(new ValueEventListener(){
             @Override
             public void onDataChange(DataSnapshot dataSnapshot){
                 AppointmentModel appointmentModel = dataSnapshot.getValue(AppointmentModel.class);
@@ -75,7 +76,8 @@ public class Editdoctorbook extends AppCompatActivity {
                 appointment.setDoctorName(doctorName.getText().toString());
                 appointment.setBookingDate(date.getText().toString());
                 appointment.setTime(time.getText().toString());
-                FirebaseDatabase.getInstance().getReference("medione").child("Appointments").child("MkHoyezUmubrwwxAv4n").setValue(appointment);
+                FirebaseDatabase.getInstance().getReference("medione").child("Appointments")
+                        .child("MkHoyezUmubrwwxAv4n").setValue(appointment);
             }
         });
 
@@ -83,7 +85,8 @@ public class Editdoctorbook extends AppCompatActivity {
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mDatabaseReference.child("Appointments").child("MkHoyezUmubrwwxAv4n").removeValue().addOnSuccessListener(new OnSuccessListener<Void>(){
+                mDatabaseReference.child("Appointments").child("MkHoyezUmubrwwxAv4n").removeValue()
+                        .addOnSuccessListener(new OnSuccessListener<Void>(){
                     @Override
                     public void onSuccess(Void mVoid){
                         Toast.makeText(Editdoctorbook.this,"Deleted sucessfuly",Toast.LENGTH_SHORT).show();

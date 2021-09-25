@@ -29,6 +29,7 @@ public class DeleteAccount extends AppCompatActivity {
         mDatabaseReference = mFirebaseInstance.getReference("Users");
 
 
+
         delete=findViewById(R.id.button6);
         delete.setOnClickListener(new View.OnClickListener()
 
@@ -49,7 +50,8 @@ public class DeleteAccount extends AppCompatActivity {
             }
         });
 
-//jivishan_delete_account
+
+
         DleCancel = findViewById(R.id.DleCancel);
         DleCancel.setOnClickListener(new View.OnClickListener() {
             @Override

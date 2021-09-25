@@ -1,5 +1,4 @@
 package com.example.anew.medicin;
-
 public class MedicineModel {
     private String patientName;
     private String patientAddress;
@@ -55,6 +54,7 @@ public class MedicineModel {
     public void setQuantity(String quantity) {
         this.quantity = quantity;
     }
+
 
     public MedicineModel(String patientName,
                          String patientAddress,

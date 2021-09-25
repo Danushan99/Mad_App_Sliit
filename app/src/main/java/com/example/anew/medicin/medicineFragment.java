@@ -18,7 +18,7 @@ public class medicineFragment extends Fragment implements View.OnClickListener {
     private CardView mcard1,mcar2;
 
     public medicineFragment() {
-        // Required empty public constructor
+        // Required empty public
     }
 
 

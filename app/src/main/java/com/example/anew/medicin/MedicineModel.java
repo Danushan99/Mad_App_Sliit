@@ -57,7 +57,7 @@ public class MedicineModel {
         this.quantity = quantity;
     }
 
-//declaration variables
+//declaration variable
     public MedicineModel(String patientName,
                          String patientAddress,
                          String phoneNo,

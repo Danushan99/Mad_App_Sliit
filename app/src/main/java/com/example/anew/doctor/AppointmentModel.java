@@ -1,6 +1,7 @@
 package com.example.anew.doctor;
 
 public class AppointmentModel {
+
     private String doctorName;
     private String patientName;
     private String patientAddress;
@@ -13,6 +14,7 @@ public class AppointmentModel {
         return doctorName;
     }
 
+
     public void setDoctorName(String doctorName) {
         this.doctorName = doctorName;
     }
@@ -20,6 +22,7 @@ public class AppointmentModel {
     public String getPatientName() {
         return patientName;
     }
+
 
     public void setPatientName(String patientName) {
         this.patientName = patientName;

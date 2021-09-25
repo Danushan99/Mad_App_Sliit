@@ -18,6 +18,7 @@ public class mediBuy extends AppCompatActivity {
         setContentView(R.layout.activity_medi_buy);
         nextpage=findViewById(R.id.buynow);
         nextpage.setOnClickListener(new View.OnClickListener()
+
         {
             @Override
             public void onClick(View v) {
@@ -25,9 +26,6 @@ public class mediBuy extends AppCompatActivity {
                 startActivity(intent);
 
             }
-
-
-
         });
     }
 }

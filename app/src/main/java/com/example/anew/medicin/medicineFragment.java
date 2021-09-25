@@ -33,6 +33,7 @@ public class medicineFragment extends Fragment implements View.OnClickListener {
         mcard1.setOnClickListener(this);
         return myView;
     }
+
     @Override
     public void onClick(View v) {
         switch (v.getId()){

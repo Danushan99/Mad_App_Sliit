@@ -1,4 +1,6 @@
 package com.example.anew.medicin;
+
+//declarations
 public class MedicineModel {
     private String patientName;
     private String patientAddress;
@@ -69,6 +71,7 @@ public class MedicineModel {
         this.medicineName = medicineName;
         this.quantity = quantity;
     }
+
     public MedicineModel(){
     }
 }

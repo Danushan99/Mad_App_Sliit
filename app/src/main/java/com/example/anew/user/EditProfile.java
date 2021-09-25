@@ -49,6 +49,7 @@ public class EditProfile extends AppCompatActivity {
                 phone.setText(userModel.getPhoneNo());
             }
 
+
             @Override
             public void onCancelled(DatabaseError databaseError){
                 // TODO: Implement this method
@@ -57,6 +58,7 @@ public class EditProfile extends AppCompatActivity {
             }
 
         });
+
 
         Button editProfile = findViewById(R.id.button6);
         editProfile.setOnClickListener(new View.OnClickListener() {

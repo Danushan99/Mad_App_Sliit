@@ -58,6 +58,7 @@ public class EditScanbooking extends AppCompatActivity {
 
         });
 
+        //edit button
         Button editDetails = findViewById(R.id.btnSubmit);
         editDetails.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,7 +72,7 @@ public class EditScanbooking extends AppCompatActivity {
                         .child("MkHtB_sS7UDK6cIEkmT").setValue(medicineModel);
             }
         });
-
+         //delete Button
         Button delete = findViewById(R.id.btnRemove);
         delete.setOnClickListener(new View.OnClickListener() {
             @Override

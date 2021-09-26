@@ -25,6 +25,6 @@ public class scanBooked extends AppCompatActivity {
             private void openActivity1() {//success page button navigation
                 Intent intent= new Intent(scanBooked.this, EditScanbooking.class);
                 startActivity(intent);
-
+//Aditional
             }
         });}}

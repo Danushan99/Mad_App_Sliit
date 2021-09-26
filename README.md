@@ -53,6 +53,6 @@ Contribution </h1>
  
 <h1>Tools and Technologies </h1><br>
 <h2>1.Android Studio</h2><br>
-<h2>2.Java</h2><br>![Java](https://img.shields.io/badge/-Java-000000?style=for-the-badge&logo=Java&logoColor=007396)
+<h2>2.Java</h2><br>
 <h2>3.Firebase</h2><br>
 

@@ -45,8 +45,14 @@ minimize the number of patients in your waiting room to ensure you meet sociald
 <h1>
 Contribution </h1>
 <h2>
- -  IT20072742 -Agash varatharasa<br>
+ -  IT20072742 -Agash varatharasa-<br>
  -  IT20051648- Danushan Ravendran-<br>
  -  IT20116392- Jivishan Thirukumaran- <br>
  -  IT20212254- Kobigan Krishnananthan- <br>
- </h2>
+ </h2><br>
+ 
+<h1>Tools and Technologies </h1><br>
+<h2>1.Android Studio</h2><br>
+<h2>2.Java</h2><br>![Java](https://img.shields.io/badge/-Java-000000?style=for-the-badge&logo=Java&logoColor=007396)
+<h2>3.Firebase</h2><br>
+

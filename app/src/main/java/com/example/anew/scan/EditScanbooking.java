@@ -27,7 +27,7 @@ public class EditScanbooking extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_scanbooking);
-
+//firebase initilizing
         FirebaseApp.initializeApp(this);
         mFirebaseInstance = FirebaseDatabase.getInstance();
         mDatabaseReference = mFirebaseInstance.getReference("medione");
@@ -57,7 +57,7 @@ public class EditScanbooking extends AppCompatActivity {
             }
 
         });
-
+          //cLIck
         //edit button
         Button editDetails = findViewById(R.id.btnSubmit);
         editDetails.setOnClickListener(new View.OnClickListener() {
